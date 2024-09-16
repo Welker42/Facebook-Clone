@@ -1,0 +1,92 @@
+/* styles/Profile.module.css */
+
+.profileContainer {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profileHeader {
+    position: relative;
+    background-color: #e9eff1;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.coverPhoto {
+    height: 200px;
+    background-color: #ddd;
+}
+
+.profileInfo {
+    display: flex;
+    align-items: center;
+    margin-top: -70px;
+}
+
+.profilePicture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 20px;
+    border: 3px solid #fff;
+}
+
+.profileDetails h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profileNav {
+    border-bottom: 1px solid #ddd;
+}
+
+.profileNav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: #f4f6f7;
+}
+
+.profileNav li {
+    flex: 1;
+    text-align: center;
+}
+
+.profileNav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.profileNav a:hover {
+    background-color: #e1e4e8;
+}
+
+.profileContent {
+    padding: 20px;
+}
+
+.posts {
+    margin-top: 20px;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.post h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.post p {
+    margin: 0;
+}
